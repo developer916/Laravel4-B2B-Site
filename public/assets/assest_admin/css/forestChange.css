@@ -1,0 +1,104 @@
+@CHARSET "ISO-8859-1";
+
+.specificationPictureForm{
+    display: inline-block;
+}
+.previewMultiImage{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+.previewMultiImage .img-wrap {
+    position: relative;
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+.previewMultiImage .img-wrap img {
+    width: 50px;
+    height: 40px;
+    /* border-radius: 5px; */
+}
+.previewMultiImage .img-wrap .close-button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(../images/multiple_close.png) no-repeat top center;
+    background-size: 80%;
+    width: 15px;
+    height: 15px;
+    display: none;
+    cursor: pointer;
+}
+.previewMultiImage .img-wrap:hover .close-button {
+    display: block;
+}
+.fileItemList {
+    position: relative;
+    width: 85px;
+    height: 130px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.fileItemList .fileHref {
+    width: 100%;
+    height: 55px;
+    text-align: center;
+}
+.previewMultiFile .fileItemList:hover .close-button {
+    display: block;
+}
+.previewMultiFile .fileItemList .close-button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(../images/multiple_close.png) no-repeat top center;
+    background-size: 80%;
+    width: 15px;
+    height: 15px;
+    display: none;
+    cursor: pointer;
+}
+.piclist{
+    margin-top: 30px;
+}
+.piclist li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.piclist li img{
+    width: 100%;
+    height: auto;
+}
+.picZoomer-pic-wp,
+.picZoomer-zoom-wp{
+    border: 1px solid #fff;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: Simple-Line-Icons!important;
+}
+
+.min-height-1000{
+    min-height: 1000px!important;
+}
+.changeSize{
+    width: 45%;
+    display: inline-block;
+}
+.display-inline-block{
+    display: inline-block;
+}
+.additionalImage{
+    width:50px;
+    height: auto;
+}
+
+.classBeActive{
+    background-color: #DAD47F!important;
+}
+.padding-top-0{
+    padding-top: 0px!important;
+}
